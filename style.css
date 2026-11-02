@@ -1,0 +1,133 @@
+
+/* ESTILO GERAL DA PÁGINA */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background-color: #1c1c1c;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+    margin: 0;
+
+    border-bottom: 4px solid #c62828;
+}
+
+
+/* TÍTULO DO CABEÇALHO */
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+nav {
+    background-color: #333333;
+
+    text-align: center;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #555555;
+}
+
+
+/* LINKS DO MENU */
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+    padding: 10px;
+
+    border: 1px solid transparent;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+nav a:hover {
+    background-color: #c62828;
+
+    border: 1px solid #ffffff;
+
+    border-radius: 5px;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    background-color: white;
+
+    width: 80%;
+
+    margin: 30px auto;
+    padding: 25px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+}
+
+
+/* TÍTULOS */
+
+h2 {
+    color: #c62828;
+
+    margin-bottom: 20px;
+
+    border-bottom: 2px solid #eeeeee;
+
+    padding-bottom: 10px;
+}
+
+
+/* PARÁGRAFOS */
+
+p {
+    line-height: 1.6;
+
+    margin-bottom: 15px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+
+    border-top: 4px solid #c62828;
+}
+
+
+/* PARÁGRAFO DO RODAPÉ */
+
+footer p {
+    margin: 0;
+}
